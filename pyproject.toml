@@ -33,6 +33,7 @@ docformatter = "^1.7.7"
 [tool.poetry.scripts]
 aqctl_andor_emccd = "oxart.frontend.aqctl_andor_emccd:main"
 aqctl_agilent_6671a = "oxart.frontend.aqctl_agilent_6671a:main"
+aqctl_agilent_ipcmini = "oxart.frontend.aqctl_agilent_ipcmini:main"
 aqctl_arroyo = "oxart.frontend.aqctl_arroyo:main"
 aqctl_agilent_33220 = "oxart.frontend.aqctl_agilent_33220a:main"
 aqctl_booster = "oxart.frontend.aqctl_booster:main"
