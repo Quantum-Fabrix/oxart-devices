@@ -18,7 +18,7 @@ class IPCMini:
 
     def _read(self):
         # wait for end of response transmission, then read the crc
-        bytes_ = self.tn.read_until(c.etx, timeout=0.2)
+        bytes_ = self.tn.read_until(c.etx, timeout=5.0)
         bytes_ += self.tn.read_very_eager()
         return bytes_
 
